@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* sets a padding and margin to give a space in browser */
+body {
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+/* set the background gradient color as per instruction */
+.mainGradient{
+    background: linear-gradient(lightyellow , yellow);
+    padding: 20px;
+}
+
+/* brand or logo with border and redious  */
+header#brand {
+    border: 1px solid white;
+    border-radius: 100px 50px 100px 0px;
+    background: blue;
+    padding: 20px; 
+    /* margin: 20px; */
+    width: 140px;
+    height: 70px;
+}
+
+/* logo text */
+header p {
+    color: white;
+    font-size: 16px;
+    /* line-height: 60px; */
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+        }
